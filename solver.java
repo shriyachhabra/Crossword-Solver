@@ -6,12 +6,11 @@ public static void main(String[] args) {
 	
 		Scanner scn = new Scanner(System.in);
 		
-		char[][] cross = new char[10][10];
-		for (int i = 0; i < 10; i++) {
+	char[][] cross = new char[10][10];
+	for (int i = 0; i < 10; i++) {
          String s=scn.next();
          cross[i]=s.toCharArray();
-
-		}
+	}
 
 		
 		String str = scn.next();
